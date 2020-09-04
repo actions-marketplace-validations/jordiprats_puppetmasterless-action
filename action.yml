@@ -1,5 +1,5 @@
 name: 'goss testing using packer'
-description: 'Execute goss tests on docker a container provided by packer'
+description: 'Execute goss tests on a docker container provided by packer'
 author: 'Jordi Prats'
 branding:
   icon: 'cloud-lightning'
