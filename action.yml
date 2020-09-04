@@ -1,0 +1,14 @@
+name: 'goss testing using packer'
+description: 'Execute goss tests on docker a container provided by packer'
+author: 'Jordi Prats'
+branding:
+  icon: 'cloud-lightning'
+  color: 'blue'
+inputs:
+  distro:
+    description: 'Linux distribution to use'
+    required: false
+    default: 'centos7'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
